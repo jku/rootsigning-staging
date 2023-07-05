@@ -1,3 +1,3 @@
-# playground-template
+# rootsigning staging
 
-This is a template for TUF repositories running [repository-playground](https://github.com/jku/repository-playground/blob/main/playground/).
+This is an experiment to run the sigstore staging TUF repository with [repository-playground](https://github.com/jku/repository-playground/blob/main/playground/).
