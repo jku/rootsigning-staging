@@ -25,12 +25,14 @@ The goal is:
   but makes signing event review easier). See prep.py.
 * Make old root private key available locally as import/import_root_priv.pem (this is from staging/keys/76651934/ in root-signing repository)
 * Push changes to remote main: From now on we will use tuf-on-ci so remote branches matter
-* Created local .tuf-on-ci-sign.ini config file where the only non-standard thing is signing-keys config: 
-  The original root key is a private-key-in-file so needs config to be found:
+* Created local .tuf-on-ci-sign.ini config file where the non-standard things relate to signing-keys config: 
+   The original root key is a private-key-in-file so needs config to be found:
   ```
   [signing-keys]
   c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda = file:import/import_root_priv.pem?encrypted=false
   ```
+  I also want to add my own hardware key as root signer and tuf-on-ci currently only handles one key per role per user...
+  So I use a temporary username to match the signing key to: `user-name = @-repo-import`
 
 #### Import
 
