@@ -6,26 +6,14 @@
   },
   {
    "keyid": "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93",
-   "sig": "30440220613be6d3f533bf357bb3fc1003b65ae3d8fb4671bcf9bb5b947101e6340397bd02204f470f9f857268c478a91e350da2b31017b817e6da1b5ea1ed938f32f3540082"
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2033-08-07T08:45:00Z",
+  "expires": "2033-08-07T08:52:23Z",
   "keys": {
-   "314ae73abd3012fc73bfcc3783e31d03852716597642b891d6a33155c4baf600": {
-    "keyid_hash_algorithms": [
-     "sha256",
-     "sha512"
-    ],
-    "keytype": "ecdsa-sha2-nistp256",
-    "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXMZ7rD8tWDE4lK/+naJN7INMxNC7\nbMMANDqTQE7WpzyzffWOg59hc/MwbvJtvuxhO9mEu3GD3Cn0HffFlmVRiA==\n-----END PUBLIC KEY-----\n"
-    },
-    "scheme": "ecdsa-sha2-nistp256",
-    "x-tuf-on-ci-online-uri": "file:nonexistentkey?encrypted=false"
-   },
    "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93": {
     "keytype": "ecdsa",
     "keyval": {
@@ -33,6 +21,15 @@
     },
     "scheme": "ecdsa-sha2-nistp256",
     "x-tuf-on-ci-keyowner": "@jku"
+   },
+   "abcd": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/jku/rootsigning-staging/.github/workflows/snapshot.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-online-uri": "sigstore:"
    },
    "c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda": {
     "keyid_hash_algorithms": [
@@ -45,6 +42,15 @@
     },
     "scheme": "ecdsa-sha2-nistp256",
     "x-tuf-on-ci-keyowner": "@-repo-import"
+   },
+   "efgh": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/jku/rootsigning-staging/.github/workflows/version-bumps.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-online-uri": "sigstore:"
    }
   },
   "roles": {
@@ -57,7 +63,8 @@
    },
    "snapshot": {
     "keyids": [
-     "314ae73abd3012fc73bfcc3783e31d03852716597642b891d6a33155c4baf600"
+     "abcd",
+     "efgh"
     ],
     "threshold": 1,
     "x-tuf-on-ci-expiry-period": 3650,
@@ -71,11 +78,12 @@
    },
    "timestamp": {
     "keyids": [
-     "314ae73abd3012fc73bfcc3783e31d03852716597642b891d6a33155c4baf600"
+     "abcd",
+     "efgh"
     ],
     "threshold": 1,
-    "x-tuf-on-ci-expiry-period": 3650,
-    "x-tuf-on-ci-signing-period": 365
+    "x-tuf-on-ci-expiry-period": 14,
+    "x-tuf-on-ci-signing-period": 7
    }
   },
   "spec_version": "1.0",
