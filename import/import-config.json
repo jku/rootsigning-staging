@@ -1,0 +1,17 @@
+{
+  "root": {
+    "x-tuf-on-ci-expiry-period": 3650,
+    "x-tuf-on-ci-signing-period": 365,
+    "314ae73abd3012fc73bfcc3783e31d03852716597642b891d6a33155c4baf600": "file:nonexistentkey?encrypted=false",
+    "c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda": "@jku"
+  } ,
+  "targets": {
+    "x-tuf-on-ci-expiry-period": 3650,
+    "x-tuf-on-ci-signing-period": 365,
+    "314ae73abd3012fc73bfcc3783e31d03852716597642b891d6a33155c4baf600": "@-nonexistentuser"
+  },
+  "registry.npmjs.org": {
+    "x-tuf-on-ci-expiry-period": 3650,
+    "x-tuf-on-ci-signing-period": 365
+  }
+}
