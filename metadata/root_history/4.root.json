@@ -6,13 +6,13 @@
   },
   {
    "keyid": "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93",
-   "sig": "3044022011a13869038ad3aedf1d98c5d92897fe86f8683faa902efec04567d31f74f3eb02205765ce8befa79b682e1ce3787ca496071c31d837f064fe7fdefd48c54920bd27"
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2033-08-07T11:38:15Z",
+  "expires": "2033-08-07T11:38:58Z",
   "keys": {
    "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93": {
     "keytype": "ecdsa",
@@ -29,24 +29,11 @@
     },
     "scheme": "ecdsa-sha2-nistp256",
     "x-tuf-on-ci-online-uri": "gcpkms:projects/python-tuf-kms/locations/global/keyRings/securesystemslib-tests/cryptoKeys/ecdsa-sha2-nistp256/cryptoKeyVersions/1"
-   },
-   "c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda": {
-    "keyid_hash_algorithms": [
-     "sha256",
-     "sha512"
-    ],
-    "keytype": "ecdsa-sha2-nistp256",
-    "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEL3vL/VeaH6nBbo4rekyO4cc/QthS\n+nlyJXCXSnyIMAtLmVTa8Pf0qG6YIVaR0TmLkyk9YoSVsZakxuMTuaEwrg==\n-----END PUBLIC KEY-----\n"
-    },
-    "scheme": "ecdsa-sha2-nistp256",
-    "x-tuf-on-ci-keyowner": "@-repo-import"
    }
   },
   "roles": {
    "root": {
     "keyids": [
-     "c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda",
      "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93"
     ],
     "threshold": 1
