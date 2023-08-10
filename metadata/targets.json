@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda",
-   "sig": "304502210090b089087d1b17b2517c464b7774d76d3ea558ffca874eed63ccbee8f6bc3b76022022b56f551bcd0ac8a9c35cd0724ac5b00b4984544cbf812f47f276a9b48db8db"
+   "sig": ""
   }
  ],
  "signed": {
@@ -18,7 +18,8 @@
      "keyval": {
       "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXMZ7rD8tWDE4lK/+naJN7INMxNC7\nbMMANDqTQE7WpzyzffWOg59hc/MwbvJtvuxhO9mEu3GD3Cn0HffFlmVRiA==\n-----END PUBLIC KEY-----\n"
      },
-     "scheme": "ecdsa-sha2-nistp256"
+     "scheme": "ecdsa-sha2-nistp256",
+     "x-tuf-on-ci-keyowner": "@-nonexistentuser"
     }
    },
    "roles": [
@@ -35,7 +36,7 @@
     }
    ]
   },
-  "expires": "2028-09-29T21:10:55Z",
+  "expires": "2033-08-07T08:08:58Z",
   "spec_version": "1.0",
   "targets": {
    "ctfe.pub": {
@@ -130,6 +131,8 @@
     "length": 4521
    }
   },
-  "version": 2
+  "version": 3,
+  "x-tuf-on-ci-expiry-period": 3650,
+  "x-tuf-on-ci-signing-period": 365
  }
 }
