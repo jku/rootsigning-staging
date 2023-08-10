@@ -6,13 +6,13 @@
   },
   {
    "keyid": "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93",
-   "sig": "304402202971d5a3ee9a264eb9c7fe3d510c46add43536481d66a88b88771f2fdbc900a702201f452daba4a278d6d50e9cf67b8158b2ecf972ca7ad073b480f746630a70b525"
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2033-08-07T08:43:50Z",
+  "expires": "2033-08-07T08:45:00Z",
   "keys": {
    "314ae73abd3012fc73bfcc3783e31d03852716597642b891d6a33155c4baf600": {
     "keyid_hash_algorithms": [
@@ -65,7 +65,7 @@
    },
    "targets": {
     "keyids": [
-     "c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda"
+     "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93"
     ],
     "threshold": 1
    },
