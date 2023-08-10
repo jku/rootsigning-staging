@@ -7,7 +7,7 @@
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2033-08-07T08:09:58Z",
+  "expires": "2033-08-07T08:26:16Z",
   "spec_version": "1.0",
   "targets": {
    "registry.npmjs.org/keys.json": {
@@ -17,7 +17,7 @@
     "length": 1017
    }
   },
-  "version": 4,
+  "version": 3,
   "x-tuf-on-ci-expiry-period": 3650,
   "x-tuf-on-ci-signing-period": 365
  }

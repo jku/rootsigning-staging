@@ -19,7 +19,7 @@
       "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXMZ7rD8tWDE4lK/+naJN7INMxNC7\nbMMANDqTQE7WpzyzffWOg59hc/MwbvJtvuxhO9mEu3GD3Cn0HffFlmVRiA==\n-----END PUBLIC KEY-----\n"
      },
      "scheme": "ecdsa-sha2-nistp256",
-     "x-tuf-on-ci-keyowner": "@-nonexistentuser"
+     "x-tuf-on-ci-keyowner": "@-nobody"
     }
    },
    "roles": [
@@ -36,7 +36,7 @@
     }
    ]
   },
-  "expires": "2033-08-07T08:09:58Z",
+  "expires": "2033-08-07T08:26:16Z",
   "spec_version": "1.0",
   "targets": {
    "ctfe.pub": {
@@ -82,7 +82,7 @@
     "length": 4521
    }
   },
-  "version": 4,
+  "version": 3,
   "x-tuf-on-ci-expiry-period": 3650,
   "x-tuf-on-ci-signing-period": 365
  }

@@ -2,13 +2,13 @@
  "signatures": [
   {
    "keyid": "c8e09a68b5821b75462ae0df52151c81deb7f1838246dc1da8c34cc91ec12bda",
-   "sig": "3045022100a84777c6eb7f89bfa7bd17ba4564871da30101d47bb3b64ec35130aabddf79d90220206aff9e727b17d6f73712cc5cd8ce92f9a89c22d16363d36af3b9a12f90a732"
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2033-08-07T08:08:58Z",
+  "expires": "2033-08-07T08:26:16Z",
   "keys": {
    "314ae73abd3012fc73bfcc3783e31d03852716597642b891d6a33155c4baf600": {
     "keyid_hash_algorithms": [
@@ -32,7 +32,7 @@
      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEL3vL/VeaH6nBbo4rekyO4cc/QthS\n+nlyJXCXSnyIMAtLmVTa8Pf0qG6YIVaR0TmLkyk9YoSVsZakxuMTuaEwrg==\n-----END PUBLIC KEY-----\n"
     },
     "scheme": "ecdsa-sha2-nistp256",
-    "x-tuf-on-ci-keyowner": "@jku"
+    "x-tuf-on-ci-keyowner": "@-repo-import"
    }
   },
   "roles": {
