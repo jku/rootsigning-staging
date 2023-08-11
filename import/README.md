@@ -18,12 +18,13 @@ The goal is:
 
 #### Preparation
 
-* Commit 1: Initialize repository by forking template tuf-on-ci-template
-* Commit 2: Copy metadata from https://github.com/sigstore/root-signing.git: contents match staging/repository/ but filenames have been changed:
+* Initialize repository by forking template tuf-on-ci-template
+  * Modify the default publishing directories to match the ones sigstore uses (metadata: "", targets: "targets")
+* Copy metadata from https://github.com/sigstore/root-signing.git: contents match staging/repository/ but filenames have been changed:
   * metadata files do not have versions (except in root_history/)
   * target files do not have hash prefixes
   * root versions stored in root_history/
-* Commit 3: Rewrite all files with python-tuf (This is just whitespace changes and not strictly necessary
+* Rewrite all files with python-tuf (This is just whitespace changes and not strictly necessary
   but makes signing event review easier). See prep.py.
 * Make old root private key available locally as import/import_root_priv.pem (this is from staging/keys/76651934/ in root-signing repository)
 * Push changes to remote main: From now on we will use tuf-on-ci so remote branches matter
